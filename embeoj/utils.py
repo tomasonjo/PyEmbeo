@@ -54,7 +54,7 @@ def test_db_connection():
     try:
         logging.info("CONNECTING TO DATABASE.........")
         graph_connection = connect_to_graphdb()
-        graph_connection.run("call db.schema")
+        graph_connection.run("RETURN true")
         return True
     except Exception as e:
         logging.info(

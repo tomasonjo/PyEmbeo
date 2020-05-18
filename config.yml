@@ -10,7 +10,7 @@ GLOBAL_CONFIG:
   TRAIN_SPLIT: null
   TSV_FILE_NAME: graph
 GRAPH_DATABASE:
-  PASSWORD: test
+  PASSWORD: letmein
   URL: bolt://localhost:7687/
   USERNAME: neo4j
 OPTIONAL_PBG_SETTINGS:
